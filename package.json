@@ -1,0 +1,22 @@
+{
+  "name": "PDFFilter",
+  "version": "1.0.0",
+  "author": "Viktoria Kovalenko",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "public"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "dependencies": {
+    "node.normalize.scss": "^3.0.3"
+  }
+}

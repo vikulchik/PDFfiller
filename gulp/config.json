@@ -1,0 +1,12 @@
+{
+  "pugUrl": "dev/pages/index.pug",
+  "scssUrl": "dev/templates/index.scss",
+  "publicUrls": {
+    "html": "public",
+    "styles": "public"
+  },
+  "watcherUrls": {
+    "pug": "dev/**/*.pug",
+    "scss": "dev/**/*.scss"
+  }
+}
