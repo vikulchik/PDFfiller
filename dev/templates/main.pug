@@ -7,9 +7,7 @@ html(lang='ru')
     link(rel="stylesheet" href="index.min.css")
     block title
   body
-    .wrapper
-      include ../pages/header
-      block page
+    block page
+    include ../components/DocumentList/index
 
-    include ../pages/footer
     script(src="js/main.min.js")
