@@ -3,7 +3,7 @@
   "scssUrl": "dev/templates/index.scss",
   "publicUrls": {
     "html": "public",
-    "styles": "public"
+    "styles": "public/templates"
   },
   "watcherUrls": {
     "pug": "dev/**/*.pug",
