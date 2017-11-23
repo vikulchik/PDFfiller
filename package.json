@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "author": "Viktoria Kovalenko",
   "scripts": {
-    "start": "gulp serve",
-    "build": "public"
+    "start": "gulp serve"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
