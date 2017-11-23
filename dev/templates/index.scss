@@ -1,11 +1,8 @@
 @import "../components/Button/styles";
 @import "../components/DocumentList/styles";
+@import "../templates/_normalize.scss";
 
 html,
 body {
   height: 100%;
-}
-
-body {
-  margin: 0;
 }
