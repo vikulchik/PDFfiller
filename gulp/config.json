@@ -1,5 +1,5 @@
 {
-  "pugUrl": "dev/pages/index.pug",
+  "pugUrl": "dev/**/*.pug",
   "scssUrl": "dev/templates/index.scss",
   "publicUrls": {
     "html": "public",

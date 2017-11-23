@@ -3,7 +3,6 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const config = require('../config.json');
 const sourcemaps = require('gulp-sourcemaps');
-const rename = require("gulp-rename");
 
 module.exports = () => {
   return gulp.src(config.scssUrl)
@@ -13,6 +12,5 @@ module.exports = () => {
       browsers: ['last 2 versions'],
       cascade: false,
     }))
-    .pipe(rename('index.min.css'))
     .pipe(gulp.dest(config.publicUrls.styles));
 };

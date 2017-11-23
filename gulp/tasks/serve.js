@@ -3,7 +3,10 @@ const browserSync = require('browser-sync').create();
 
 exports.runServer = () => {
    browserSync.init({
-    server: './public',
+       server: {
+           baseDir: './public/templates',
+           index: 'main.html'
+       }
   });
 };
 
