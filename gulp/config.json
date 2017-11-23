@@ -1,9 +1,9 @@
 {
   "pugUrl": "dev/**/*.pug",
-  "scssUrl": "dev/templates/index.scss",
+  "scssUrl": "dev/**/*.scss",
   "publicUrls": {
     "html": "public",
-    "styles": "public/templates"
+    "styles": "public"
   },
   "watcherUrls": {
     "pug": "dev/**/*.pug",
